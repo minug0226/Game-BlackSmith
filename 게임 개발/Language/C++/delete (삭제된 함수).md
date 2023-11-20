@@ -15,18 +15,28 @@ class Knight
 {
 public:
 
-private:
+public:
 	// 정의되지 않은 비공개(private) 함수
-	void operator=(const Knight& k)
-	{
+	// 어떤 함수를 더이상 사용하고 싶지않다. (delete)
+	void operator=(const Knight& k) = delete;
 
-	}
+	// 모든 것을 뚫는 창 vs 절대 방패
+	friend class Admin;
 
 private:
 	int _hp = 100;
 };
 
-
+class Admin
+{
+public:
+	void CopyKnight(const Knight& k)
+	{
+		Knight k1;
+		// 복사 연산
+		k1 = k;
+	}
+};
 
 int main()
 {
@@ -36,7 +46,8 @@ int main()
 	// 복사 연산자 
 	k1 = k2;
 
-
+	Admin admin;
+	admin.CopyKnight(k1);
 
 	return 0;
 }
