@@ -193,3 +193,4 @@
 
 - [delete (삭제된 함수)](https://github.com/minug0226/Game-BlackSmith/blob/main/%EA%B2%8C%EC%9E%84%20%EA%B0%9C%EB%B0%9C/Language/C%2B%2B/delete%20(%EC%82%AD%EC%A0%9C%EB%90%9C%20%ED%95%A8%EC%88%98).md)
 
+- [override, final](https://github.com/minug0226/Game-BlackSmith/blob/main/%EA%B2%8C%EC%9E%84%20%EA%B0%9C%EB%B0%9C/Language/C%2B%2B/override%2C%20final.md)
