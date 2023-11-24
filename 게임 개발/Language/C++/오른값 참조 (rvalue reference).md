@@ -29,10 +29,37 @@ public:
 	Knight() { cout << "Knight()" << endl; }
 	// 복사 생성자
 	Knight(const Knight& knight) { cout << "const Knight()" << endl; }
+	// 이동 생성자
+	Knight(Knight&& knight) { cout << "Knight(Knight&&)" << endl; }
 	// 소멸자
 	~Knight() { if (_pet) delete _pet; }
 	// 복사 대입 연산자
-	void operator = (const Knight& knight) { cout << "operator = (const Knight&)" << endl; }
+	void operator = (const Knight& knight) 
+	{ 
+		cout << "operator = (const Knight&)" << endl; 
+		
+		// 깊은 복사
+		_hp = knight._hp;
+
+		if (knight._pet)
+			_pet = new Pet(*knight._pet);
+	}
+
+	// 이동 대입 연산자
+	void operator = (Knight&& knight)
+	{
+		cout << "operator = (Knight&&)" << endl;
+
+		// 얕은 복사
+		_hp = knight._hp;
+		_pet = knight._pet;
+
+		// 이동 대입 연산자는 원본을 무효화시켜야함
+		knight._hp = 0;
+		knight._pet = nullptr;
+	}
+
+
 public:
 	int _hp = 100;
 	Pet* _pet = nullptr;
@@ -72,6 +99,18 @@ int main()
 	// 따라서 오른값을 받아야함
 	TestKnight_RvalueRef(Knight());
 	TestKnight_RvalueRef(static_cast<Knight&&>(k1));
+
+	Knight k2;
+	k2._pet = new Pet();
+	k2._hp = 1000;
+
+	// 원본은 날려도 된다 << 는 Hint를 주는 쪽에 가깝다!
+	Knight k3;
+	// 이동 대입 연산자 호출
+	// k3 = static_cast<Knight&&>(k2);
+
+	k3 = std::move(k2); // 오른값 참조로 캐스팅하는것과 같음
+	// std::move의 본래 이름 후보 중 하나가 rvalue_cast
 
 	return 0;
 }
