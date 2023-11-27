@@ -112,6 +112,11 @@ int main()
 	k3 = std::move(k2); // 오른값 참조로 캐스팅하는것과 같음
 	// std::move의 본래 이름 후보 중 하나가 rvalue_cast
 
+	// 포인터는 포인터인데 이 세상에서 하나만 존재해야함.
+	// 유니크 포인터
+	std::unique_ptr<Knight> uptr = std::make_unique<Knight>();
+	std::unique_ptr<Knight> uptr2 = std::move(uptr);
+
 	return 0;
 }
 
