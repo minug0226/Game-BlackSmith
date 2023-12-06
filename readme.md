@@ -202,3 +202,7 @@
 - [람다 (lambda)](https://github.com/minug0226/Game-BlackSmith/blob/main/%EA%B2%8C%EC%9E%84%20%EA%B0%9C%EB%B0%9C/Language/C%2B%2B/%EB%9E%8C%EB%8B%A4%20(lambda).md)
 
 - [스마트 포인터 (smart pointer)](https://github.com/minug0226/Game-BlackSmith/blob/main/%EA%B2%8C%EC%9E%84%20%EA%B0%9C%EB%B0%9C/Language/C%2B%2B/%EC%8A%A4%EB%A7%88%ED%8A%B8%20%ED%8F%AC%EC%9D%B8%ED%84%B0%20(smart%20pointer).md)
+
+----------------
+# Direct 12 & 게임수학
+- [장치 초기화] (https://github.com/minug0226/Game-BlackSmith/blob/main/%EA%B2%8C%EC%9E%84%20%EA%B0%9C%EB%B0%9C/Engine/Directx12/%EC%9E%A5%EC%B9%98%20%EC%B4%88%EA%B8%B0%ED%99%94.md)
