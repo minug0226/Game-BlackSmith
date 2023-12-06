@@ -206,3 +206,5 @@
 # 💨 게임 수학과 Direct 12
 
 - [프로젝트 설정](https://github.com/minug0226/Game-BlackSmith/tree/main/%EA%B2%8C%EC%9E%84%20%EA%B0%9C%EB%B0%9C/Graphics/DirectX12/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%84%A4%EC%A0%95)
+
+- (수정준비)
