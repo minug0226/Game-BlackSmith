@@ -1,1 +1,1 @@
-Dev filter=lfs diff=lfs merge=lfs -text
+/Dev/** filter=lfs diff=lfs merge=lfs -text
