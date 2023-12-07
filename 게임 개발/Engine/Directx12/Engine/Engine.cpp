@@ -15,19 +15,17 @@ void Engine::Init(const WindowInfo& info)
 	_swapChain = make_shared<SwapChain>();
 	_rootSignature = make_shared<RootSignature>();
 
-
 	_device->Init();
 	_cmdQueue->Init(_device->GetDevice(), _swapChain);
 	_swapChain->Init(info, _device->GetDevice(), _device->GetDXGI(), _cmdQueue->GetCmdQueue());
 	_rootSignature->Init(_device->GetDevice());
-
 }
 
 void Engine::Render()
 {
 	RenderBegin();
-	
-	// TODO: 나머지 물체들 그려준다.
+
+	// TODO : 나머지 물체들 그려준다
 
 	RenderEnd();
 }

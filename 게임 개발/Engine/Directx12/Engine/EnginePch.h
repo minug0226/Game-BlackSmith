@@ -45,15 +45,15 @@ using Matrix	= XMMATRIX;
 
 enum
 {
-	SWAP_CHAIN_BUFFER_COUNT = 2,
+	SWAP_CHAIN_BUFFER_COUNT = 2
 };
 
 struct WindowInfo
 {
 	HWND	hwnd; // 출력 윈도우
-	int32	width; // 윈도우 가로 크기 (너비)
-	int32	height; // 윈도우 세로 크기 (높이)
-	bool	windowed; // 창모드 or 전체화면 여부
+	int32	width; // 너비
+	int32	height; // 높이
+	bool	windowed; // 창모드 or 전체화면
 };
 
 struct Vertex
@@ -62,9 +62,8 @@ struct Vertex
 	Vec4 color;
 };
 
-#define DEVICE		GEngine->GetDevice()->GetDevice()
-#define CMD_LIST	GEngine->GetCommandQueue()->GetCmdList()
+#define DEVICE			GEngine->GetDevice()->GetDevice()
+#define CMD_LIST		GEngine->GetCmdQueue()->GetCmdList()
+#define ROOT_SIGNATURE	GEngine->GetRootSignature()->GetSignature()
 
-// extern이란?
-// extern은 외부에 선언된 전역변수를 사용할 때 사용하는 키워드입니다.
 extern unique_ptr<class Engine> GEngine;

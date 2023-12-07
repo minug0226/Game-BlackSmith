@@ -8,7 +8,8 @@
 #define MAX_LOADSTRING 100
 
 // 전역 변수:
-WindowInfo GWindowInfo;                        
+WindowInfo GWindowInfo;
+
 HINSTANCE hInst;                                // 현재 인스턴스입니다.
 WCHAR szTitle[MAX_LOADSTRING];                  // 제목 표시줄 텍스트입니다.
 WCHAR szWindowClass[MAX_LOADSTRING];            // 기본 창 클래스 이름입니다.
@@ -48,7 +49,7 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
     GWindowInfo.height = 600;
     GWindowInfo.windowed = true;
 
-    unique_ptr<Game> game = make_unique<Game>(); // 아래에서 delete를 하지 않아도 됨 스마트포인터의 장점
+    unique_ptr<Game> game = make_unique<Game>();
     game->Init(GWindowInfo);
 
     // 기본 메시지 루프입니다:
@@ -56,17 +57,17 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
     {
         if (PeekMessage(&msg, nullptr, 0, 0, PM_REMOVE))
         {
-			if(msg.message == WM_QUIT)
-				break;
+            if (msg.message == WM_QUIT)
+                break;
 
-            if (!TranslateAccelerator(msg.hwnd, hAccelTable, &msg))
-            {
-                TranslateMessage(&msg);
-                DispatchMessage(&msg);
-            }
-		}
+			if (!TranslateAccelerator(msg.hwnd, hAccelTable, &msg))
+			{
+				TranslateMessage(&msg);
+				DispatchMessage(&msg);
+			}
+        }
 
-        // TODO
+		// TODO
         game->Update();
     }
 
@@ -94,7 +95,7 @@ ATOM MyRegisterClass(HINSTANCE hInstance)
     wcex.hIcon          = LoadIcon(hInstance, MAKEINTRESOURCE(IDI_CLIENT));
     wcex.hCursor        = LoadCursor(nullptr, IDC_ARROW);
     wcex.hbrBackground  = (HBRUSH)(COLOR_WINDOW+1);
-    wcex.lpszMenuName = nullptr; 
+    wcex.lpszMenuName   = nullptr;
     wcex.lpszClassName  = szWindowClass;
     wcex.hIconSm        = LoadIcon(wcex.hInstance, MAKEINTRESOURCE(IDI_SMALL));
 
