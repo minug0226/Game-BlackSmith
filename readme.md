@@ -214,6 +214,7 @@
 # 💥 Direct 12 & 게임수학
 
 ### DirectX12 초기화
+
 - [장치 초기화](https://github.com/minug0226/Game-BlackSmith/blob/main/%EA%B2%8C%EC%9E%84%20%EA%B0%9C%EB%B0%9C/Engine/Directx12/%EC%9E%A5%EC%B9%98%20%EC%B4%88%EA%B8%B0%ED%99%94.md)
 
 - [삼각형 띄우기](https://github.com/minug0226/Game-BlackSmith/blob/main/%EA%B2%8C%EC%9E%84%20%EA%B0%9C%EB%B0%9C/Engine/Directx12/%EC%82%BC%EA%B0%81%ED%98%95%20%EB%9D%84%EC%9A%B0%EA%B8%B0.md)
@@ -228,4 +229,21 @@
 
 - [DepthStencilBuffer](https://github.com/minug0226/Game-BlackSmith/blob/main/%EA%B2%8C%EC%9E%84%20%EA%B0%9C%EB%B0%9C/Engine/Directx12/Depth%20Stencil%20View.md)
 
+### Graphics Pipeline
+
+- [Graphics Pipeline]
+- [Rasterization]
+- [Tessellation]
+
+### Root  Signature
+
+- [Root Descriptor]
+
+### Component
+
 - [Input과 Timer](https://github.com/minug0226/Game-BlackSmith/blob/main/%EA%B2%8C%EC%9E%84%20%EA%B0%9C%EB%B0%9C/Engine/Directx12/Input%EA%B3%BC%20Timer.md)
+
+- [Material]
+
+- [Component]
+
