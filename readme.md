@@ -33,12 +33,19 @@
 ### 데이터 갖고 놀기
 
 - [정수](https://github.com/minug0226/Game-BlackSmith/blob/main/%EA%B2%8C%EC%9E%84%20%EA%B0%9C%EB%B0%9C/Language/C%2B%2B/%EC%A0%95%EC%88%98.md)
+
 - [불리언(bool) 과 실수](https://github.com/minug0226/Game-BlackSmith/blob/main/%EA%B2%8C%EC%9E%84%20%EA%B0%9C%EB%B0%9C/Language/C%2B%2B/%EB%B6%88%EB%A6%AC%EC%96%B8(bool)%20%EA%B3%BC%20%EC%8B%A4%EC%88%98.md)
+
 - [문자와 문자열](https://github.com/minug0226/Game-BlackSmith/blob/main/%EA%B2%8C%EC%9E%84%20%EA%B0%9C%EB%B0%9C/Language/C%2B%2B/%EB%AC%B8%EC%9E%90%EC%99%80%20%EB%AC%B8%EC%9E%90%EC%97%B4.md)
+
 - [데이터 연산1](https://github.com/minug0226/Game-BlackSmith/blob/main/%EA%B2%8C%EC%9E%84%20%EA%B0%9C%EB%B0%9C/Language/C%2B%2B/%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%97%B0%EC%82%B01.md)
+
 - [데이터 연산2](https://github.com/minug0226/Game-BlackSmith/blob/main/%EA%B2%8C%EC%9E%84%20%EA%B0%9C%EB%B0%9C/Language/C%2B%2B/%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%97%B0%EC%82%B02.md)
+
 - [데이터 연산3](https://github.com/minug0226/Game-BlackSmith/blob/main/%EA%B2%8C%EC%9E%84%20%EA%B0%9C%EB%B0%9C/Language/C%2B%2B/%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%97%B0%EC%82%B03.md)
+
 - [const 와 메모리 구조](https://github.com/minug0226/Game-BlackSmith/blob/main/%EA%B2%8C%EC%9E%84%20%EA%B0%9C%EB%B0%9C/Language/C%2B%2B/const%20%EC%99%80%20%EB%A9%94%EB%AA%A8%EB%A6%AC%20%EA%B5%AC%EC%A1%B0.md)
+
 - [유의사항 ( 팁 )](https://github.com/minug0226/Game-BlackSmith/blob/main/%EA%B2%8C%EC%9E%84%20%EA%B0%9C%EB%B0%9C/Language/C%2B%2B/%EC%9C%A0%EC%9D%98%EC%82%AC%ED%95%AD%20(%20%ED%8C%81%20).md)
 
 ### 코드의 흐름 제어
@@ -208,3 +215,17 @@
 
 ### DirectX12 초기화
 - [장치 초기화](https://github.com/minug0226/Game-BlackSmith/blob/main/%EA%B2%8C%EC%9E%84%20%EA%B0%9C%EB%B0%9C/Engine/Directx12/%EC%9E%A5%EC%B9%98%20%EC%B4%88%EA%B8%B0%ED%99%94.md)
+
+- [삼각형 띄우기](https://github.com/minug0226/Game-BlackSmith/blob/main/%EA%B2%8C%EC%9E%84%20%EA%B0%9C%EB%B0%9C/Engine/Directx12/%EC%82%BC%EA%B0%81%ED%98%95%20%EB%9D%84%EC%9A%B0%EA%B8%B0.md)
+
+- [Constant Buffer (상수버퍼)](https://github.com/minug0226/Game-BlackSmith/blob/main/%EA%B2%8C%EC%9E%84%20%EA%B0%9C%EB%B0%9C/Engine/Directx12/Constant%20Buffer.md)
+
+- [Root Signature](https://github.com/minug0226/Game-BlackSmith/blob/main/%EA%B2%8C%EC%9E%84%20%EA%B0%9C%EB%B0%9C/Engine/Directx12/Root%20Signature.md)
+
+- [Index Buffer](https://github.com/minug0226/Game-BlackSmith/blob/main/%EA%B2%8C%EC%9E%84%20%EA%B0%9C%EB%B0%9C/Engine/Directx12/Index%20Buffer.md)
+
+- [Texture Mapping](https://github.com/minug0226/Game-BlackSmith/blob/main/%EA%B2%8C%EC%9E%84%20%EA%B0%9C%EB%B0%9C/Engine/Directx12/Texture%20Mapping.md)
+
+- [DepthStencilBuffer](https://github.com/minug0226/Game-BlackSmith/blob/main/%EA%B2%8C%EC%9E%84%20%EA%B0%9C%EB%B0%9C/Engine/Directx12/Depth%20Stencil%20View.md)
+
+- [Input과 Timer](https://github.com/minug0226/Game-BlackSmith/blob/main/%EA%B2%8C%EC%9E%84%20%EA%B0%9C%EB%B0%9C/Engine/Directx12/Input%EA%B3%BC%20Timer.md)
