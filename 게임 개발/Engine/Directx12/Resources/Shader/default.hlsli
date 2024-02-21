@@ -33,7 +33,7 @@ VS_OUT VS_Main(VS_IN input)
     output.viewNormal = normalize(mul(float4(input.normal, 0.f), g_matWV).xyz);
     output.viewTangent = normalize(mul(float4(input.tangent, 0.f), g_matWV).xyz);
     output.viewBinormal = normalize(cross(output.viewTangent, output.viewNormal));
-    
+
     return output;
 }
 
@@ -46,19 +46,19 @@ float4 PS_Main(VS_OUT input) : SV_Target
     float3 viewNormal = input.viewNormal;
     if (g_tex_on_1)
     {
-        // [0, 255] 범위에서 [0, 1]로 변환
+        // [0,255] 범위에서 [0,1]로 변환
         float3 tangentSpaceNormal = g_tex_1.Sample(g_sam_0, input.uv).xyz;
-        // [0, 1] 범위에서 [-1, 1]로 변환
+        // [0,1] 범위에서 [-1,1]로 변환
         tangentSpaceNormal = (tangentSpaceNormal - 0.5f) * 2.f;
         float3x3 matTBN = { input.viewTangent, input.viewBinormal, input.viewNormal };
         viewNormal = normalize(mul(tangentSpaceNormal, matTBN));
     }
-    
-    LightColor totalColor = (LightColor) 0.f;
+
+    LightColor totalColor = (LightColor)0.f;
 
     for (int i = 0; i < g_lightCount; ++i)
     {
-         LightColor color = CalculateLightColor(i, input.viewNormal, input.viewPos);
+         LightColor color = CalculateLightColor(i, viewNormal, input.viewPos);
          totalColor.diffuse += color.diffuse;
          totalColor.ambient += color.ambient;
          totalColor.specular += color.specular;
