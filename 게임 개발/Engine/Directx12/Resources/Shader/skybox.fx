@@ -1,8 +1,7 @@
-#ifndef _SKYBOX_HLSLI_
-#define _SKYBOX_HLSLI_
+#ifndef _SKYBOX_FX_
+#define _SKYBOX_FX_
 
-#include "params.hlsli"
-
+#include "params.fx"
 
 struct VS_IN
 {
@@ -23,8 +22,8 @@ VS_OUT VS_Main(VS_IN input)
     // Translation은 하지 않고 Rotation만 적용한다
     float4 viewPos = mul(float4(input.localPos, 0), g_matView);
     float4 clipSpacePos = mul(viewPos, g_matProjection);
-    
-    // w/w = 1 이기 때문에 항상 깊이가 1로 유지된다
+
+    // w/w=1이기 때문에 항상 깊이가 1로 유지된다
     output.pos = clipSpacePos.xyww;
     output.uv = input.uv;
 
