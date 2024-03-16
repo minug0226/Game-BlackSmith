@@ -215,79 +215,79 @@
 
 ### DirectX12 초기화
 
-- [장치 초기화](https://github.com/minug0226/Game-BlackSmith/blob/main/%EA%B2%8C%EC%9E%84%20%EA%B0%9C%EB%B0%9C/Engine/Directx12/%EC%9E%A5%EC%B9%98%20%EC%B4%88%EA%B8%B0%ED%99%94.md)
+- [장치 초기화](https://github.com/minug0226/Game-BlackSmith/blob/main/%EA%B2%8C%EC%9E%84%20%EA%B0%9C%EB%B0%9C/Graphics/DirectX12/00.%20%EC%9E%A5%EC%B9%98%20%EC%B4%88%EA%B8%B0%ED%99%94.md)
 
-- [삼각형 띄우기](https://github.com/minug0226/Game-BlackSmith/blob/main/%EA%B2%8C%EC%9E%84%20%EA%B0%9C%EB%B0%9C/Engine/Directx12/%EC%82%BC%EA%B0%81%ED%98%95%20%EB%9D%84%EC%9A%B0%EA%B8%B0.md)
+- [삼각형 띄우기](https://github.com/minug0226/Game-BlackSmith/blob/main/%EA%B2%8C%EC%9E%84%20%EA%B0%9C%EB%B0%9C/Graphics/DirectX12/01.%20%EC%82%BC%EA%B0%81%ED%98%95%20%EB%9D%84%EC%9A%B0%EA%B8%B0.md)
 
-- [Constant Buffer (상수버퍼)](https://github.com/minug0226/Game-BlackSmith/blob/main/%EA%B2%8C%EC%9E%84%20%EA%B0%9C%EB%B0%9C/Engine/Directx12/Constant%20Buffer.md)
+- [Constant Buffer (상수버퍼)](https://github.com/minug0226/Game-BlackSmith/blob/main/%EA%B2%8C%EC%9E%84%20%EA%B0%9C%EB%B0%9C/Graphics/DirectX12/02.%20Constant%20Buffer.md)
 
-- [Root Signature](https://github.com/minug0226/Game-BlackSmith/blob/main/%EA%B2%8C%EC%9E%84%20%EA%B0%9C%EB%B0%9C/Engine/Directx12/Root%20Signature.md)
+- [Root Signature](https://github.com/minug0226/Game-BlackSmith/blob/main/%EA%B2%8C%EC%9E%84%20%EA%B0%9C%EB%B0%9C/Graphics/DirectX12/03.%20Root%20Signature.md)
 
-- [Index Buffer](https://github.com/minug0226/Game-BlackSmith/blob/main/%EA%B2%8C%EC%9E%84%20%EA%B0%9C%EB%B0%9C/Engine/Directx12/Index%20Buffer.md)
+- [Index Buffer](https://github.com/minug0226/Game-BlackSmith/blob/main/%EA%B2%8C%EC%9E%84%20%EA%B0%9C%EB%B0%9C/Graphics/DirectX12/04.%20Index%20Buffer.md)
 
-- [Texture Mapping](https://github.com/minug0226/Game-BlackSmith/blob/main/%EA%B2%8C%EC%9E%84%20%EA%B0%9C%EB%B0%9C/Engine/Directx12/Texture%20Mapping.md)
+- [Texture Mapping](https://github.com/minug0226/Game-BlackSmith/blob/main/%EA%B2%8C%EC%9E%84%20%EA%B0%9C%EB%B0%9C/Graphics/DirectX12/05.%20Texture%20Mapping.md)
 
-- [DepthStencilBuffer](https://github.com/minug0226/Game-BlackSmith/blob/main/%EA%B2%8C%EC%9E%84%20%EA%B0%9C%EB%B0%9C/Engine/Directx12/Depth%20Stencil%20View.md)
+- [DepthStencilBuffer](https://github.com/minug0226/Game-BlackSmith/blob/main/%EA%B2%8C%EC%9E%84%20%EA%B0%9C%EB%B0%9C/Graphics/DirectX12/06.%20Depth%20Stencil%20View.md)
 
 ### Graphics Pipeline
 
-- [Graphics Pipeline](https://github.com/minug0226/Game-BlackSmith/blob/main/%EA%B2%8C%EC%9E%84%20%EA%B0%9C%EB%B0%9C/Engine/Directx12/%EC%9A%A9%EC%96%B4%EC%82%AC%EC%A0%84/Graphics%20Pipeline.md)
-- [Rasterization](https://github.com/minug0226/Game-BlackSmith/blob/main/%EA%B2%8C%EC%9E%84%20%EA%B0%9C%EB%B0%9C/Engine/Directx12/%EC%9A%A9%EC%96%B4%EC%82%AC%EC%A0%84/Rasterization.md)
-- [Tessellation](https://github.com/minug0226/Game-BlackSmith/blob/main/%EA%B2%8C%EC%9E%84%20%EA%B0%9C%EB%B0%9C/Engine/Directx12/%EC%9A%A9%EC%96%B4%EC%82%AC%EC%A0%84/Tessellation.md)
+- [Graphics Pipeline](https://github.com/minug0226/Game-BlackSmith/blob/main/%EA%B2%8C%EC%9E%84%20%EA%B0%9C%EB%B0%9C/Graphics/DirectX12/%EC%9A%A9%EC%96%B4%EC%82%AC%EC%A0%84/Graphics%20Pipeline.md)
+- [Rasterization](https://github.com/minug0226/Game-BlackSmith/blob/main/%EA%B2%8C%EC%9E%84%20%EA%B0%9C%EB%B0%9C/Graphics/DirectX12/%EC%9A%A9%EC%96%B4%EC%82%AC%EC%A0%84/Rasterization.md)
+- [Tessellation](https://github.com/minug0226/Game-BlackSmith/blob/main/%EA%B2%8C%EC%9E%84%20%EA%B0%9C%EB%B0%9C/Graphics/DirectX12/%EC%9A%A9%EC%96%B4%EC%82%AC%EC%A0%84/Tessellation.md)
 
 ### Root  Signature
 
-- [Root Descriptor](https://github.com/minug0226/Game-BlackSmith/blob/main/%EA%B2%8C%EC%9E%84%20%EA%B0%9C%EB%B0%9C/Engine/Directx12/%EC%9A%A9%EC%96%B4%EC%82%AC%EC%A0%84/Root%20Descriptor.md)
+- [Root Descriptor](https://github.com/minug0226/Game-BlackSmith/blob/main/%EA%B2%8C%EC%9E%84%20%EA%B0%9C%EB%B0%9C/Graphics/DirectX12/%EC%9A%A9%EC%96%B4%EC%82%AC%EC%A0%84/Root%20Descriptor.md)
 
 ### Component
 
-- [Input과 Timer](https://github.com/minug0226/Game-BlackSmith/blob/main/%EA%B2%8C%EC%9E%84%20%EA%B0%9C%EB%B0%9C/Engine/Directx12/Input%EA%B3%BC%20Timer.md)
+- [Input과 Timer](https://github.com/minug0226/Game-BlackSmith/blob/main/%EA%B2%8C%EC%9E%84%20%EA%B0%9C%EB%B0%9C/Graphics/DirectX12/07.%20Input%EA%B3%BC%20Timer.md)
 
-- [Material](https://github.com/minug0226/Game-BlackSmith/blob/main/%EA%B2%8C%EC%9E%84%20%EA%B0%9C%EB%B0%9C/Engine/Directx12/08.%20Material.md)
+- [Material](https://github.com/minug0226/Game-BlackSmith/blob/main/%EA%B2%8C%EC%9E%84%20%EA%B0%9C%EB%B0%9C/Graphics/DirectX12/08.%20Material.md)
 
-- [Component](https://github.com/minug0226/Game-BlackSmith/blob/main/%EA%B2%8C%EC%9E%84%20%EA%B0%9C%EB%B0%9C/Engine/Directx12/09-1.%20Component.md)
+- [Component](https://github.com/minug0226/Game-BlackSmith/blob/main/%EA%B2%8C%EC%9E%84%20%EA%B0%9C%EB%B0%9C/Graphics/DirectX12/08.%20Material.md)
 
-- [Scene](https://github.com/minug0226/Game-BlackSmith/blob/main/%EA%B2%8C%EC%9E%84%20%EA%B0%9C%EB%B0%9C/Engine/Directx12/09-2.%20Scene.md)
+- [Scene](https://github.com/minug0226/Game-BlackSmith/blob/main/%EA%B2%8C%EC%9E%84%20%EA%B0%9C%EB%B0%9C/Graphics/DirectX12/09-2.%20Scene.md)
 
 ### Vector & Matrix
 
-- [삼각함수](https://github.com/minug0226/Game-BlackSmith/blob/main/%EA%B2%8C%EC%9E%84%20%EA%B0%9C%EB%B0%9C/Engine/Directx12/10.%20%EC%82%BC%EA%B0%81%20%ED%95%A8%EC%88%98.md)
+- [삼각함수](https://github.com/minug0226/Game-BlackSmith/blob/main/%EA%B2%8C%EC%9E%84%20%EA%B0%9C%EB%B0%9C/Graphics/DirectX12/10.%20%EC%82%BC%EA%B0%81%20%ED%95%A8%EC%88%98.md)
 
-- [벡터](https://github.com/minug0226/Game-BlackSmith/blob/main/%EA%B2%8C%EC%9E%84%20%EA%B0%9C%EB%B0%9C/Engine/Directx12/11.%20%EB%B2%A1%ED%84%B0(Vector).md)
+- [벡터](https://github.com/minug0226/Game-BlackSmith/blob/main/%EA%B2%8C%EC%9E%84%20%EA%B0%9C%EB%B0%9C/Graphics/DirectX12/11.%20%EB%B2%A1%ED%84%B0(Vector).md)
 
-- [행렬](https://github.com/minug0226/Game-BlackSmith/blob/main/%EA%B2%8C%EC%9E%84%20%EA%B0%9C%EB%B0%9C/Engine/Directx12/12.%20%ED%96%89%EB%A0%AC(Matrix).md)
+- [행렬](https://github.com/minug0226/Game-BlackSmith/blob/main/%EA%B2%8C%EC%9E%84%20%EA%B0%9C%EB%B0%9C/Graphics/DirectX12/12.%20%ED%96%89%EB%A0%AC(Matrix).md)
 
-- [Scale, Rotation, Translation 변환 행렬](https://github.com/minug0226/Game-BlackSmith/blob/main/%EA%B2%8C%EC%9E%84%20%EA%B0%9C%EB%B0%9C/Engine/Directx12/13.%20Scale%2CRotation%2C%20Translation%20%EB%B3%80%ED%99%98%20%ED%96%89%EB%A0%AC.md)
+- [Scale, Rotation, Translation 변환 행렬](https://github.com/minug0226/Game-BlackSmith/blob/main/%EA%B2%8C%EC%9E%84%20%EA%B0%9C%EB%B0%9C/Graphics/DirectX12/13.%20Scale%2CRotation%2C%20Translation%20%EB%B3%80%ED%99%98%20%ED%96%89%EB%A0%AC.md)
 
-- [좌표계 변환 행렬](https://github.com/minug0226/Game-BlackSmith/blob/main/%EA%B2%8C%EC%9E%84%20%EA%B0%9C%EB%B0%9C/Engine/Directx12/14.%20%EC%A2%8C%ED%91%9C%EA%B3%84%20%EB%B3%80%ED%99%98%20%ED%96%89%EB%A0%AC.md)
+- [좌표계 변환 행렬](https://github.com/minug0226/Game-BlackSmith/blob/main/%EA%B2%8C%EC%9E%84%20%EA%B0%9C%EB%B0%9C/Graphics/DirectX12/14.%20%EC%A2%8C%ED%91%9C%EA%B3%84%20%EB%B3%80%ED%99%98%20%ED%96%89%EB%A0%AC.md)
 
-- [World, View 변환 행렬](https://github.com/minug0226/Game-BlackSmith/blob/main/%EA%B2%8C%EC%9E%84%20%EA%B0%9C%EB%B0%9C/Engine/Directx12/15.%20World%2C%20View%20%EB%B3%80%ED%99%98%20%ED%96%89%EB%A0%AC.md)
+- [World, View 변환 행렬](https://github.com/minug0226/Game-BlackSmith/blob/main/%EA%B2%8C%EC%9E%84%20%EA%B0%9C%EB%B0%9C/Graphics/DirectX12/15.%20World%2C%20View%20%EB%B3%80%ED%99%98%20%ED%96%89%EB%A0%AC.md)
 
-- [Projection, Screen 변환 행렬](https://github.com/minug0226/Game-BlackSmith/blob/main/%EA%B2%8C%EC%9E%84%20%EA%B0%9C%EB%B0%9C/Engine/Directx12/16.%20Projection%2C%20Screen%20%EB%B3%80%ED%99%98%20%ED%96%89%EB%A0%AC.md)
+- [Projection, Screen 변환 행렬](https://github.com/minug0226/Game-BlackSmith/blob/main/%EA%B2%8C%EC%9E%84%20%EA%B0%9C%EB%B0%9C/Graphics/DirectX12/16.%20Projection%2C%20Screen%20%EB%B3%80%ED%99%98%20%ED%96%89%EB%A0%AC.md)
 
 ### Camera & Lighting
 
-- [Camera](https://github.com/minug0226/Game-BlackSmith/blob/main/%EA%B2%8C%EC%9E%84%20%EA%B0%9C%EB%B0%9C/Engine/Directx12/17.%20Camera.md)
+- [Camera](https://github.com/minug0226/Game-BlackSmith/blob/main/%EA%B2%8C%EC%9E%84%20%EA%B0%9C%EB%B0%9C/Graphics/DirectX12/17.%20Camera.md)
 
-- [Resources](https://github.com/minug0226/Game-BlackSmith/blob/main/%EA%B2%8C%EC%9E%84%20%EA%B0%9C%EB%B0%9C/Engine/Directx12/18.%20Resources%20(Cube%20%26%20Sphere).md)
+- [Resources](https://github.com/minug0226/Game-BlackSmith/blob/main/%EA%B2%8C%EC%9E%84%20%EA%B0%9C%EB%B0%9C/Graphics/DirectX12/18.%20Resources%20(Cube%20%26%20Sphere).md)
 
-- [Lighting](https://github.com/minug0226/Game-BlackSmith/blob/main/%EA%B2%8C%EC%9E%84%20%EA%B0%9C%EB%B0%9C/Engine/Directx12/19.%20Lighting.md)
+- [Lighting](https://github.com/minug0226/Game-BlackSmith/blob/main/%EA%B2%8C%EC%9E%84%20%EA%B0%9C%EB%B0%9C/Graphics/DirectX12/19.%20Lighting.md)
 
-- [Normal Mapping](https://github.com/minug0226/Game-BlackSmith/blob/main/%EA%B2%8C%EC%9E%84%20%EA%B0%9C%EB%B0%9C/Engine/Directx12/20.%20Normal%20Mapping.md)
+- [Normal Mapping](https://github.com/minug0226/Game-BlackSmith/blob/main/%EA%B2%8C%EC%9E%84%20%EA%B0%9C%EB%B0%9C/Graphics/DirectX12/20.%20Normal%20Mapping.md)
 
-- [SKYBOX](https://github.com/minug0226/Game-BlackSmith/blob/main/%EA%B2%8C%EC%9E%84%20%EA%B0%9C%EB%B0%9C/Engine/Directx12/21.%20SKYBOX.md)
+- [SKYBOX](https://github.com/minug0226/Game-BlackSmith/blob/main/%EA%B2%8C%EC%9E%84%20%EA%B0%9C%EB%B0%9C/Graphics/DirectX12/20.%20Normal%20Mapping.md)
 
-- [Frustum Culling]()
+- [Frustum Culling](https://github.com/minug0226/Game-BlackSmith/blob/main/%EA%B2%8C%EC%9E%84%20%EA%B0%9C%EB%B0%9C/Graphics/DirectX12/22.%20Frustum%20Culling.md)
 
 ### Quaternion
 
-- [Quaternion]()
+- [Quaternion](https://github.com/minug0226/Game-BlackSmith/blob/main/%EA%B2%8C%EC%9E%84%20%EA%B0%9C%EB%B0%9C/Graphics/DirectX12/23.%20Quaternion.md)
 
 ### Rendering
 
-- [직교 투영]()
-- [Render Target]()
-- [Deferred Rendering]()
+- [직교 투영](https://github.com/minug0226/Game-BlackSmith/blob/main/%EA%B2%8C%EC%9E%84%20%EA%B0%9C%EB%B0%9C/Graphics/DirectX12/24.%20%EC%A7%81%EA%B5%90%20%ED%88%AC%EC%98%81.md)
+- [Render Target](https://github.com/minug0226/Game-BlackSmith/blob/main/%EA%B2%8C%EC%9E%84%20%EA%B0%9C%EB%B0%9C/Graphics/DirectX12/25.%20Render%20Target.md)
+- [Deferred Rendering](https://github.com/minug0226/Game-BlackSmith/blob/main/%EA%B2%8C%EC%9E%84%20%EA%B0%9C%EB%B0%9C/Graphics/DirectX12/26.%20Deferred%20Rendering.md)
 
 ### Particle
 
