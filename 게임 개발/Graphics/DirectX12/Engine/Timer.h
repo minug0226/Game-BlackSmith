@@ -1,25 +1,3 @@
-#pragma once
-
-
-class Timer
-{
-	DECLARE_SINGLE(Timer);
-
-public:
-	void Init();
-	void Update();
-
-	uint32 GetFps() { return _fps; }
-	float GetDeltaTime() { return _deltaTime; }
-
-private:
-	uint64	_frequency = 0;
-	uint64	_prevCount = 0;
-	float	_deltaTime = 0.f;
-
-private:
-	uint32	_frameCount = 0;
-	float	_frameTime = 0.f;
-	uint32	_fps = 0;
-};
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:8dec80fed4e1588a1f5972c37d2db9f02e958fc14a37928f7b04eb97aea09287
+size 362

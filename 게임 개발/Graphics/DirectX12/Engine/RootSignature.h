@@ -1,20 +1,3 @@
-#pragma once
-
-class RootSignature
-{
-public:
-	void Init();
-
-	ComPtr<ID3D12RootSignature>	GetGraphicsRootSignature() { return _graphicsRootSignature; }
-	ComPtr<ID3D12RootSignature>	GetComputeRootSignature() { return _computeRootSignature; }
-
-private:
-	void CreateGraphicsRootSignature();
-	void CreateComputeRootSignature();
-
-private:
-	D3D12_STATIC_SAMPLER_DESC	_samplerDesc; 
-	ComPtr<ID3D12RootSignature>	_graphicsRootSignature;	
-	ComPtr<ID3D12RootSignature>	_computeRootSignature;
-};
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:6e09e30a763dca8adb81e440c8da6d6280958d6ba46fb543a26e68ad8ba9962d
+size 504

@@ -1,33 +1,3 @@
-#pragma once
-
-class GameObject;
-
-
-class Scene
-{
-public:
-	void Awake();
-	void Start();
-	void Update();
-	void LateUpdate();
-	void FinalUpdate();
-
-	void Render();
-	void RenderLights();
-	void RenderFinal();
-
-private:
-	void PushLightData();
-
-public:
-	void AddGameObject(shared_ptr<GameObject> gameObject);
-	void RemoveGameObject(shared_ptr<GameObject> gameObject);
-
-	const vector<shared_ptr<GameObject>>& GetGameObjects() { return _gameObjects; }
-
-private:
-	vector<shared_ptr<GameObject>>		_gameObjects;
-	vector<shared_ptr<class Camera>>	_cameras;
-	vector<shared_ptr<class Light>>		_lights;
-};
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:1ff06f6e3b51669d2bca81a4d6121f40604969e6a2c0f1b0fc9cc37c9130bfd9
+size 623

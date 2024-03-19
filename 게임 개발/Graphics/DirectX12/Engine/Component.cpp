@@ -1,22 +1,3 @@
-#include "pch.h"
-#include "Component.h"
-#include "GameObject.h"
-
-Component::Component(COMPONENT_TYPE type) : Object(OBJECT_TYPE::COMPONENT), _type(type)
-{
-
-}
-
-Component::~Component()
-{
-}
-
-shared_ptr<GameObject> Component::GetGameObject()
-{
-	return _gameObject.lock();
-}
-
-shared_ptr<Transform> Component::GetTransform()
-{
-	return _gameObject.lock()->GetTransform();
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:eb2801687d7b67b3a2e2141cc7f2dffdeeb1b458d749504a11ab0a546b0f629a
+size 387

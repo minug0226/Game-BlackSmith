@@ -1,24 +1,3 @@
-#pragma once
-
-enum PLANE_TYPE : uint8
-{
-	PLANE_FRONT,
-	PLANE_BACK,
-	PLANE_UP,
-	PLANE_DOWN,
-	PLANE_LEFT,
-	PLANE_RIGHT,
-
-	PLANE_END
-};
-
-class Frustum
-{
-public:
-	void FinalUpdate();
-	bool ContainsSphere(const Vec3& pos, float radius);
-
-private:
-	array<Vec4, PLANE_END> _planes;
-};
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:2804a13f94f68841af6f00fb2b910f0a8c56bf5e80b5c3209f40bac3311e7ad5
+size 303

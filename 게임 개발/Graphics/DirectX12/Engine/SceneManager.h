@@ -1,35 +1,3 @@
-#pragma once
-
-class Scene;
-
-enum
-{
-	MAX_LAYER = 32
-};
-
-class SceneManager
-{
-	DECLARE_SINGLE(SceneManager);
-
-public:
-	void Update();
-	void Render();
-	void LoadScene(wstring sceneName);
-
-	void SetLayerName(uint8 index, const wstring& name);
-	const wstring& IndexToLayerName(uint8 index) { return _layerNames[index]; }
-	uint8 LayerNameToIndex(const wstring& name);
-
-public:
-	shared_ptr<Scene> GetActiveScene() { return _activeScene; }
-
-private:
-	shared_ptr<Scene> LoadTestScene();
-
-private:
-	shared_ptr<Scene> _activeScene;
-
-	array<wstring, MAX_LAYER> _layerNames;
-	map<wstring, uint8> _layerIndex;
-};
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:8cfa71189e35e0677980c9abde919707e85f89b5f8f90f349faebef7003b0b64
+size 635

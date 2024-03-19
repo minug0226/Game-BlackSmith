@@ -1,22 +1,3 @@
-#include "pch.h"
-#include "MeshRenderer.h"
-#include "Mesh.h"
-#include "Material.h"
-#include "Transform.h"
-
-MeshRenderer::MeshRenderer() : Component(COMPONENT_TYPE::MESH_RENDERER)
-{
-
-}
-
-MeshRenderer::~MeshRenderer()
-{
-
-}
-
-void MeshRenderer::Render()
-{
-	 GetTransform()->PushData();
-	_material->PushGraphicsData();
-	_mesh->Render();
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:284df4c897a95c0eff00613d3e305b456aca1d6ce4deaaf3b56b5264a1c7cff6
+size 353
