@@ -1,3 +1,6 @@
-DirectX12/** filter=lfs diff=lfs merge=lfs -text
-게임[[:space:]]개발/** filter=lfs diff=lfs merge=lfs -text
-
+Client/** filter=lfs diff=lfs merge=lfs -text
+Engine/** filter=lfs diff=lfs merge=lfs -text
+Library/** filter=lfs diff=lfs merge=lfs -text
+Output/** filter=lfs diff=lfs merge=lfs -text
+Resources/** filter=lfs diff=lfs merge=lfs -text
+.vs/** filter=lfs diff=lfs merge=lfs -text
