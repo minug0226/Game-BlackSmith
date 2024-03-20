@@ -1,3 +1,47 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:49e54b6c3d908f62bc9fc9eacd7ff6be6f628ed847376390875331d830d37a1f
-size 1152
+#pragma once
+#include "Component.h"
+#include "Object.h"
+
+class Transform;
+class MeshRenderer;
+class Camera;
+class Light;
+class MonoBehaviour;
+class ParticleSystem;
+
+class GameObject : public Object, public enable_shared_from_this<GameObject>
+{
+public:
+	GameObject();
+	virtual ~GameObject();
+
+	void Awake();
+	void Start();
+	void Update();
+	void LateUpdate();
+	void FinalUpdate();
+
+	shared_ptr<Component> GetFixedComponent(COMPONENT_TYPE type);
+
+	shared_ptr<Transform> GetTransform();
+	shared_ptr<MeshRenderer> GetMeshRenderer();
+	shared_ptr<Camera> GetCamera();
+	shared_ptr<Light> GetLight();
+	shared_ptr<ParticleSystem> GetParticleSystem();
+
+	void AddComponent(shared_ptr<Component> component);
+
+	void SetCheckFrustum(bool checkFrustum) { _checkFrustum = checkFrustum; }
+	bool GetCheckFrustum() { return _checkFrustum; }
+
+	void SetLayerIndex(uint8 layer) { _layerIndex = layer; }
+	uint8 GetLayerIndex() { return _layerIndex; }
+
+private:
+	array<shared_ptr<Component>, FIXED_COMPONENT_COUNT> _components;
+	vector<shared_ptr<MonoBehaviour>> _scripts;
+
+	bool _checkFrustum = true;
+	uint8 _layerIndex = 0;
+};
+

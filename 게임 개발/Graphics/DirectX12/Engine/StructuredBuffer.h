@@ -1,3 +1,35 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:48e7709aef3c584dbc0fc9e1512eab9f0c7c70064c524a7d15943dc5f38b7c25
-size 983
+#pragma once
+
+class StructuredBuffer
+{
+public:
+	StructuredBuffer();
+	~StructuredBuffer();
+
+	void Init(uint32 elementSize, uint32 elementCount);
+
+	void PushGraphicsData(SRV_REGISTER reg);
+	void PushComputeSRVData(SRV_REGISTER reg);
+	void PushComputeUAVData(UAV_REGISTER reg);
+
+	ComPtr<ID3D12DescriptorHeap> GetSRV() { return _srvHeap; }
+	ComPtr<ID3D12DescriptorHeap> GetUAV() { return _uavHeap; }
+
+	void SetResourceState(D3D12_RESOURCE_STATES state) { _resourceState = state; }
+	D3D12_RESOURCE_STATES GetResourceState() { return _resourceState; }
+	ComPtr<ID3D12Resource> GetBuffer() { return _buffer; }
+
+private:
+	ComPtr<ID3D12Resource>			_buffer;
+	ComPtr<ID3D12DescriptorHeap>	_srvHeap;
+	ComPtr<ID3D12DescriptorHeap>	_uavHeap;
+
+	uint32						_elementSize = 0;
+	uint32						_elementCount = 0;
+	D3D12_RESOURCE_STATES		_resourceState = {};
+
+private:
+	D3D12_CPU_DESCRIPTOR_HANDLE _srvHeapBegin = {};
+	D3D12_CPU_DESCRIPTOR_HANDLE _uavHeapBegin = {};
+};
+
