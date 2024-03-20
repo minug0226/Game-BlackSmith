@@ -211,7 +211,9 @@
 - [스마트 포인터 (smart pointer)](https://github.com/minug0226/Game-BlackSmith/blob/main/%EA%B2%8C%EC%9E%84%20%EA%B0%9C%EB%B0%9C/Language/C%2B%2B/%EC%8A%A4%EB%A7%88%ED%8A%B8%20%ED%8F%AC%EC%9D%B8%ED%84%B0%20(smart%20pointer).md)
 
 ----------------
-# 💥 Direct 12
+# 🤖 Graphics
+
+## 💥 Direct 12
 
 ### DirectX12 초기화
 
